@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <script type="module" src="firebaseauth.js"></script>
+  <link rel="stylesheet" href="SL.css">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+<head>
+  <title>FitBeat | Login</title>
+</head>
+<body onload="checkAuthState()">
+  <div class="container">
+    <h1>Login To FitBeat</h1>
+    <form>
+      <div id="signInMessage" class="messageDiv" style="display:none;"></div>
+      <input type="email" placeholder="Email Address" id="rEmail" required />
+      <input type="password" placeholder="Password" id="rPassword" required />
+      <button class="signup-btn" type="submit" id="submitSignUp">Login</button>
+    </form>
+    <p class="footer-text">Don't have an account? <a href="signup.html">Signup here</a></p>
+  </div>
+</body>
+</html>
